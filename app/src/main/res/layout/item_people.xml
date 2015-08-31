@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/elsa_image_view"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:scaleType="centerCrop"
         android:src="@drawable/elsa" />
 
@@ -16,9 +16,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/elsa_image_view"
-        android:paddingBottom="50dp"
+        android:paddingBottom="30dp"
         android:text="Elsa"
-        android:textSize="50dp" />
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/test_text_view"
@@ -27,6 +27,6 @@
         android:layout_alignBottom="@+id/elsa_text_view"
         android:layout_toRightOf="@+id/elsa_image_view"
         android:text="Test"
-        android:textSize="30dp" />
+        android:textSize="20dp" />
 
 </RelativeLayout>
