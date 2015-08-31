@@ -58,7 +58,7 @@ public class CustomAdapter extends BaseAdapter {
 
         // convertView 처음 로딩 될 때 초기화 과정을 거쳐서 viewHolder에 저장
         if (convertView == null) {
-            View rootView = LayoutInflater.from(mContext).inflate(R.layout.item_people, parent,
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_people, parent,
                     false);
 
             // 각 View를 소스로 연결
@@ -88,7 +88,7 @@ public class CustomAdapter extends BaseAdapter {
         viewHolder.phone.setText(people.getPhoneNumber());
 
         // 3. 완성된 View를 리턴
-        return null;
+        return convertView;
     }
 
     static class ViewHolder {

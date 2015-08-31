@@ -9,7 +9,7 @@ public class People {
     private String phoneNumber;
     private int imageResourceId;
 
-    public People(String name, String phoneNumber, int imageResourceId) {
+    public People(int imageResourceId, String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.imageResourceId = imageResourceId;
